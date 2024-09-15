@@ -3,3 +3,10 @@ This project aims to analyze Spotify data using a scalable and serverless archit
 The workflow begins with raw data being uploaded to an S3 bucket (Staging layer). Using AWS Glue, the data is extracted, transformed, and loaded (ETL) into a Data Warehouse layer in S3. A Glue Crawler is then used to automatically catalog the data for querying. AWS Athena allows the cataloged data to be queried using SQL. Finally, the insights generated from Athena queries are visualized in Amazon QuickSight, providing interactive dashboards and reports for better understanding and analysis of the Spotify data.
 
 This approach ensures a highly scalable and cost-effective solution that is easy to maintain and extend, providing actionable insights from the data.
+
+
+The dataset used consists of three files:
+tracks, artists and albums
+
+You can get them in the following link:
+https://drive.google.com/drive/folders/1whtC8aBd2ADC0zS_qg8yTO-84LPe2PND?usp=sharing
